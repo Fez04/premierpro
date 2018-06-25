@@ -1,41 +1,81 @@
-
-.bg-dark{
-background-color: #1F262A !important;
+header {
+  height:100vh;
+  min-height:400px;
+  background-size:cover;
+  background-image:url('http://topgear.bg/wp-content/uploads/2017/08/2015-Porsche-911-Targa-drive-interior-view.jpg');
 }
 
-.float-right {
-float: right;
-max-width: 100%;
-height: 500px ;
+#aboutUs {
+  background-color: #20232a;
+
 }
 
-.float-left {
-  float: none;
-  height: 500px;
-  opacity: .05;
+
+
+	.section-title {
+		margin-bottom: 60px;
+
+	}
+	.sub-header {
+		max-width: 820px;
+		
+				
   }
+  	form {
+		max-width: 580px;
+    margin: 0 auto;
+    }
 
-.container {
-border: 3px solid #9f9f9f;
-padding: 5px;
-overflow: auto;
-background-color: #1F262A;
-color: #9f9f9f;
-
+		input {
+			margin-bottom: 0;
+      width: calc(100% - 177px);
+      
 }
+
+
+
+/*---------------------------------------
+MAP STYLES
+----------------------------------------- */
+#contacts {
+  padding: 0;
+}
+	.contacts-wrap {
+		background-color: #20232a;
+	}
+
+		.btn {
+      margin-top: 45px;
+    }
+
+	
+	form {
+		max-width: 540px;
+	}
+
+
+
+
+.container-fluid-about {
+    
+    height:57vh;
+    min-height:100px;
+    background-size:cover;
+    background-color: #20232a
+  }
+  
+
 
 /********* html5 and responsive content *********/
 
 
 #logo{
-  max-width: 5%;
+  max-width: 95%;
 }
 
-img {
 
-  max-width: 100%;
 
-}
+
 
 /********* reset *********/
 a:link,
@@ -131,7 +171,7 @@ input,
 select {
   width: 100%;
   float: left;
-  max-width: 300px;
+  
   border: 1px solid #c6c6c6;
   padding: 7px 14px;
   outline: none;
@@ -171,6 +211,9 @@ select {
   background: url(assets/images/searchhb-orange.png) right center no-repeat;
   background-size: 100% 100%;
 }
+
+
+
 /**IMPORTANT CLASS FOR METABOXES!**/
 .hide {
   display: none!important;
@@ -192,6 +235,7 @@ select {
 html,
 body {
   height: 100%;
+  background-color: #1F262A;
 }
 
 }
@@ -206,6 +250,7 @@ body {
 .wrapper100percent {
   float: left;
   width: 100%;
+  
 }
 
 /********* services **********/
@@ -359,3 +404,143 @@ body {
   }
 }
 /********* services end **********/
+
+/* FOOTER */
+
+#myFooter {
+  background-color: #182c39;
+  color: white;
+  padding-top: 20px;
+}
+
+#map-container {
+  height: 240px;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#myFooter .row {
+  margin: 0 85px;
+}
+
+#myFooter .footer-copyright {
+  background-color: #10222e;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+}
+
+#myFooter .footer-copyright p {
+  margin: 10px;
+  color: #ccc;
+}
+
+#myFooter .container {
+  width: auto;
+}
+
+#myFooter ul {
+  list-style-type: none;
+  padding-left: 0;
+  line-height: 1.7;
+}
+
+#myFooter h5 {
+  font-size: 18px;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+#myFooter a {
+  color: #d2d1d1;
+  text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+#myFooter .social-networks {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+
+#myFooter .fa {
+  font-size: 30px;
+  margin-right: 15px;
+  margin-left: 20px;
+  background-color: white;
+  color: #182c39;
+  border-radius: 51%;
+  padding: 10px;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 31px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+  color: #2b55ff;
+}
+
+#myFooter .fa-facebook:focus {
+  color: #2b55ff;
+}
+
+#myFooter .fa-google-plus:hover {
+  color: red;
+}
+
+#myFooter .fa-google-plus:focus {
+  color: red;
+}
+
+#myFooter .fa-twitter:hover {
+  color: #00aced;
+}
+
+#myFooter .fa-twitter:focus {
+  color: #00aced;
+}
+
+@media screen and (max-width: 767px) {
+  #myFooter {
+      text-align: center;
+  }
+  #myFooter .row {
+      margin: 0;
+  }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+
+.content{
+ flex: 1 0 auto;
+ -webkit-flex: 1 0 auto;
+ min-height: 200px;
+}
+
+#myFooter{
+ flex: 0 0 auto;
+ -webkit-flex: 0 0 auto;
+}
+
+
+
+
+
+
+
+	
