@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
-
+<link rel="stylesheet" href="css\normalize.css">
+<link href='https://fonts.googleapis.com/css?family=Montserrat Alternates' rel='stylesheet'>
+<script src="https://code.jquery.com/jquery-1.12.3.min.js" integrity="sha256-aaODHAgvwQW1bFOGXMeX+pC4PZIPsvn2h1sArYOhgXQ=" crossorigin="anonymous"></script>b
+<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="js/script.js"></script>
 <link rel="stylesheet" href="css\style.css">
 <link rel="stylesheet" href="css\font-awesome.min.css">
-<link rel="stylesheet" href="css\normalize.css">
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-<link rel="dns-prefetch" href="//fonts.googleapis.com">
-<link rel="stylesheet" id="rt_insurance_fonts-css" href="//fonts.googleapis.com/css?family=Droid+Sans%7CSource+Sans+Pro%3A300%2C400%2C600%26subset%3Dlatin%2Clatin-ext&amp;ver=1.0.0" type="text/css" media="all">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
 
 
 
@@ -239,9 +240,12 @@
                     </ul>
                 </div>
             </div>
-            <!-- Google Embed API to show Google Maps. -->
+            
+    <!-- Google Embed API to show Google Maps. -->
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3195.616279087314!2d-119.7940971!3d36.7797718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe91b71a84078c28!2sV+%26+R+Properties!5e0!3m2!1sen!2sus!4v1529891659243" <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3195.616279087314!2d-119.7940971!3d36.7797718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe91b71a84078c28!2sV+%26+R+Properties!5e0!3m2!1sen!2sus!4v1529891659243" width="1870" height="350" frameborder="0" style="border:0" allowfullscreen></iframe> 
+            <iframe id="map-container" frameborder="0" style="border:0"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3195.616279087314!2d-119.7940971!3d36.7797718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe91b71a84078c28!2sV+%26+R+Properties!5e0!3m2!1sen!2sus!4v1529891659243" <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3195.616279087314!2d-119.7940971!3d36.7797718!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xe91b71a84078c28!2sV+%26+R+Properties!5e0!3m2!1sen!2sus!4v1529891659243"">
+            </iframe>
         </div>
         <div class="social-networks">
             <a href="https://twitter.com/DCAL33T" class="twitter"><i class="fa fa-twitter"></i></a>
@@ -249,12 +253,10 @@
             <a href="https://plus.google.com/104739162105722877783" class="google"><i class="fa fa-google-plus"></i></a>
         </div>
         <div class="footer-copyright">
-            <p>© 2018 Copyright Text </p>
+            <p>© 2017 Copyright Text </p>
         </div>
     </footer>
-
      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-
      <script
        src="https://code.jquery.com/jquery-3.2.1.min.js "
        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -263,7 +265,6 @@
        <script type="text/javascript">
          $(document).ready(function() {
     var $lightbox = $('#lightbox');
-
     $('[data-target="#lightbox"]').on('click', function(event) {
         var $img = $(this).find('img'),
             src = $img.attr('src'),
@@ -272,16 +273,13 @@
                 'maxWidth': $(window).width() - 100,
                 'maxHeight': $(window).height() - 100
             };
-
         $lightbox.find('.close').addClass('hidden');
         $lightbox.find('img').attr('src', src);
         $lightbox.find('img').attr('alt', alt);
         $lightbox.find('img').css(css);
     });
-
     $lightbox.on('shown.bs.modal', function (e) {
         var $img = $lightbox.find('img');
-
         $lightbox.find('.modal-dialog').css({'width': $img.width()});
         $lightbox.find('.close').removeClass('hidden');
     });
@@ -289,7 +287,3 @@
        </script>
    </body>
  </html>
-
-   
-
-
