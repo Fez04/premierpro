@@ -6,9 +6,74 @@ header {
 }
 
 #aboutUs {
-  background-color: #20232a;
+  background-color: #181a1f;
 
 }
+
+form .form-row {
+  margin: 0
+}
+
+form .form-row > .col {
+  padding: 15px
+}
+
+form .form-row .form-control {
+  border-radius: 0
+}
+
+form textarea {
+  resize: none
+}
+
+
+
+
+
+.btn {
+    padding: 16px 36px;
+    font-size: 13px;
+    line-height: 1;
+    color: #fff;
+    letter-spacing: 1.8px;
+    border-radius: 0;
+    transition: all .25s ease;
+    min-width: 170px
+}
+
+.btn:hover {
+    background-color: #242d2e;
+    color: #fff
+}
+
+.btn-simple {
+    border: 1px solid #fff;
+    background: 0 0;
+    padding: 15px 40px
+}
+
+.btn-simple:hover, .pricing-table:hover .btn {
+    background-color: #00a8ff;
+    border-color: #00a8ff
+}
+
+.btn-dark {
+    border: none;
+    background-color: #181a1f
+}
+
+.btn-primary {
+    border: none;
+    background-color: #00a8ff
+}
+
+.btn-white {
+    background-color: #fff;
+    color: #181a1f
+}
+
+
+
 
 
 
@@ -307,22 +372,22 @@ body {
   width: 100%;
 }
 .services .color1 {
-  background: #e47563;
-}
-.services .color2 {
   background: #c55643;
 }
-.services .color3 {
+.services .color2 {
   background: #ab4636;
 }
-.services .color4 {
+.services .color3 {
   background: #924030;
 }
-.services .color5 {
+.services .color4 {
   background: #783424;
 }
-.services .color6 {
+.services .color5 {
   background: #672a1e;
+}
+.services .color6 {
+  background: #AB4B3A;
 }
 .services ul {
   display: block;
@@ -537,10 +602,68 @@ body {
  -webkit-flex: 0 0 auto;
 }
 
+section#tag-slogan {
+  background: url(../images/fake-brick.png) #047ec0;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 200%;
+  color: white;
+  margin-bottom: 50px;
+}
 
 
+section#whyChoose {
+  
+  background: url(../images/fresno_dt.jpg) bottom center no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-top: -30px;
+}
+
+section#whyChoose .the_y {
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+  background: rgba(32,35,42, 0.9);
+  width: 60%;
+  padding-right: 175px;
+}
+
+section#whyChoose .content-wrapper {
+  display: block;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  height: 100%;
+  padding: 50px;
+  color: white;
+  font-size: 120%;
+  font-weight: 300;
+}
+
+section#whyChoose .content-wrapper h6 {
+  text-transform: uppercase;
+  color: #f4ebd9;
+  font-size: 200%;
+  margin: 0 0 25px;
+  line-height: 100%;
+}
+
+section#whyChoose .content-wrapper .fa-ul li {
+  margin-bottom: 10px;
+}
+
+section#whyChoose .content-wrapper .fa-ul i {
+  color: #058ed9;
+}
 
 
+.container.fw {
+  width: 100%;
+  max-width: 100%;
+  
+}
 
-
-	
+.push6 {
+  margin-left: 50%;
+}
